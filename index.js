@@ -90,7 +90,7 @@ function removeFromCart(item) {
     }
 
 
-if( item || Object.keys(cart)){ return console.log("That item is not in your cart.")}
+
 
 
 
@@ -107,7 +107,7 @@ if( item || Object.keys(cart)){ return console.log("That item is not in your car
 
 
 }
-
+if(item || Object.keys(cart)){ return console.log("That item is not in your cart.")}
     return cart;
 
 
