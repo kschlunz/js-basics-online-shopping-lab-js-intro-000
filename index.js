@@ -82,7 +82,7 @@ let  total = 0
 
 function removeFromCart(item) {
   for(let i =0; i<cart.length; i++){
-    if (cart[i].hasOwnProperty(item)){
+    if (cart.hasOwnProperty(item)){
 
 
           cart.slice(item, 1)
