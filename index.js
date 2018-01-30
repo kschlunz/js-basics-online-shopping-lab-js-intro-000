@@ -86,6 +86,7 @@ function removeFromCart(item) {
 
 
           cart.slice(item, 1)
+          return cart; 
 
     }
 
