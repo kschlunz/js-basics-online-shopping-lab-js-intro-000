@@ -97,7 +97,7 @@ else if (item === Object.keys(cart)){
       for(let i =0; i<cart.length; i++){
 
 
-        cart.hasOwnProperty(item)
+        cart[i].hasOwnProperty(item)
         delete cart[key]
       }
 
