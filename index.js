@@ -85,7 +85,7 @@ function removeFromCart(item) {
     if (cart[i].hasOwnProperty(item)){
 
 
-          cart.shift(item)
+          cart.slice(item, 1)
 
     }
 
