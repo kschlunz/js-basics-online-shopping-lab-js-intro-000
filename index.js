@@ -85,7 +85,7 @@ function removeFromCart(item) {
 
   for(let i = 0; i<cart.length; i++){
 
-    if(inCart[i].hasOwnProperty(item)){
+    if(inCart.hasOwnProperty(item)){
         let inCart=true
         cart.shift(item)
     }
@@ -97,7 +97,7 @@ function removeFromCart(item) {
 
 
 
-return cart 
+return cart
 
 }
 
