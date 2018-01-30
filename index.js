@@ -85,14 +85,9 @@ function removeFromCart(item) {
     if (item === Object.keys(cart)){
 
           cart[i].hasOwnProperty(item)
-          delete cart[key]
+          cart.shift(item)
 
     }
-
-
-
-
-
 
     //get item to match to item in cart using hasOwnProperty
     //use for loop to iterate over each item in the cart to see if item matches
@@ -101,7 +96,7 @@ function removeFromCart(item) {
 
 
 
-      //remove the object from the cart
+
 
 
 
