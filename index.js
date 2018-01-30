@@ -83,7 +83,7 @@ let  total = 0
 function removeFromCart(item) {
     let inCart= false;
 
-  for(i = 0; i<cart.length; i++){
+  for(let i = 0; i<cart.length; i++){
 
     if(inCart[i].hasOwnProperty(item)){
         let inCart=true
