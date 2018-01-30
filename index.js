@@ -81,23 +81,35 @@ let  total = 0
 
 
 function removeFromCart(item) {
+  for(let i =0; i<cart.length; i++){
+    if (item === Object.keys(cart)){
 
+          cart[i].hasOwnProperty(item)
+          delete cart[key]
 
-  for(let i = 0; i<cart.length; i++){
-
-    if(cart[i].hasOwnProperty(item)){
-        let inCart=true
-        cart.shift(item)
     }
 
-  }
-  if(!cart){
-    console.log("That item is not in your cart.")
-  }
+
+if( item || Object.keys(cart)){ return console.log("That item is not in your cart.")}
 
 
 
-return cart
+    //get item to match to item in cart using hasOwnProperty
+    //use for loop to iterate over each item in the cart to see if item matches
+    //when item matches remove the element in the original cart
+    //return cart without item that matched.
+
+
+
+      //remove the object from the cart
+
+
+
+
+}
+
+    return cart;
+
 
 }
 
