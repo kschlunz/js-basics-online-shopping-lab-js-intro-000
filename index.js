@@ -81,7 +81,7 @@ let  total = 0
 
 
 function removeFromCart(item) {
-    
+
 
   for(let i = 0; i<cart.length; i++){
 
