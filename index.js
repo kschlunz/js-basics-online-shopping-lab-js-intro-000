@@ -91,7 +91,7 @@ function removeFromCart(item) {
     }
 
   }
-  if(!inCart){
+  if(!cart){
     console.log("That item is not in your cart.")
   }
 
